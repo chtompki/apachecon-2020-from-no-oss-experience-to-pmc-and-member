@@ -51,8 +51,8 @@
             <h2>Who is this guy?</h2>
             <ul>
                 <li class="fragment">Mathematician and Logician by schooling.</li>
-                <li class="fragment">Java, Python, DevOps, and Security Software Engineer.</li>
-                <li class="fragemnt">Worked in financial and transportation sectors.</li>
+                <li class="fragment">Software Developer in Java, Python, DevOps, and Security.</li>
+                <li class="fragment">Worked in financial and transportation sectors.</li>
                 <li class="fragment">Project management committee for Apache Commons and Apache Member.</li>
                 <li class="fragment">Adventure sports athlete (whitewater kayaking, rock climbing, and mountain biking).</li>
             </ul>
@@ -61,23 +61,57 @@
         <!-- SLIDE 2 -->
         <section>
             <h2>Before we get started, does anyone not know what an open source project is?</h2>
+            <p class="fragment"><a href="https://opensource.org/faq#osd">Definition: https://opensource.org/faq#osd</a></p>
         </section>
 
         <!-- SLIDE 3 -->
         <section>
             <h2>What is the <a href="http://commons.apache.org">Apache Commons Project</a>?</h2>
             <ul>
-                <li class="fragment">Common location for sharing code for Apache projects.</li>
-                <li class="fragment">Was jakarta commons (jakarta being the apache java project).</li>
-                <li class="fragment"><strong>Current mission:</strong> Provide a place for other ASF projects to
-                    come together, collaborate and share
-                    common code.</li>
+                <li class="fragment">Common location for sharing code for use across all Apache projects.</li>
+                <li class="fragment">Was jakarta commons (jakarta being the apache java project).
+                    <ul>
+                        <li class="fragment"><em>Note.</em> The Eclipse Foundation has recently (September 10, 2019)
+                        co-opted the name for their Java EE work. (We at Apache are supportive of this as well)</li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
-        <!-- TODO: more on Apache Commons -->
-
         <!-- SLIDE 4 -->
+        <section>
+            <h2>What is the <a href="http://commons.apache.org">Apache Commons Project</a>?</h2>
+            <ul>
+                <li class="fragment"><strong>Current mission:</strong> Provide a place for other ASF projects to
+                    come together, collaborate and share
+                    common code.</li>
+                <li class="fragment">Committers from <em>any</em> Apache project can request commit privileges.</li>
+            </ul>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        </section>
+
+        <!-- SLIDE 5 -->
+        <section>
+            <h2>Apache Commons Today</h2>
+            <ul>
+                <li class="fragment">A collection of 33 independent java projects.</li>
+                <li class="fragment">The most popular projects are (based on <a href="https://github.com/search?o=desc&p=2&q=apache+commons&s=stars&type=Repositories">github's stars</a>):
+                    <ul>
+                        <li class="fragment">commons-lang3</li>
+                        <li class="fragment">commons-io</li>
+                        <li class="fragment">commons-collections</li>
+                        <li class="fragment">commons-math</li>
+                        <li class="fragment">commons-pool</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- SLIDE 6 -->
         <section>
             <h2>What are the benefits of open source software?</h2>
             <ul>
@@ -87,34 +121,36 @@
             </ul>
         </section>
 
-        <!-- SLIDE 5 -->
+        <!-- SLIDE 7 -->
         <section>
             <h2>[Benedikt] Ritter's Law</h2>
             <p class="fragment">
                 Everything that is not part of our domain/business logic or the crazy legacy
-                systems with which we need to integrate has already been developed by somebody
-                much smarter than us....
+                systems with which we need to integrate has already been developed by somebody
+                much smarter than we are....
             </p>
             <p class="fragment">
-                Don't re-invent the wheel!
+                <strong>Don't re-invent the wheel!</strong>
             </p>
         </section>
 
-        <!-- SLIDE 6 -->
+        <!-- SLIDE 8 -->
         <section>
             <h2>Why did I get involved?</h2>
             <ol>
+                <li class="fragment">I thought that I would have "spare time" during the paternity leave for my second daughter's birth.</li>
                 <li class="fragment">To keep my mathematics sharp(er).</li>
                 <li class="fragment">Career advancement?</li>
                 <li class="fragment">You're not constrained by timelines...you can get it right.</li>
             </ol>
         </section>
 
-        <!-- SLIDE 7 -->
+        <!-- SLIDE 9 -->
         <section>
-            <h2>Ok, so what did you do to get involved?</h2>
+            <h2>Ok, so what do you do to get involved?</h2>
             <ol>
                 <li class="fragment">Pick a subject that you're passionate about.</li>
+                <li class="fragment">Pick a project that you already work with regularly.</li>
                 <li class="fragment">If it's on git check the stats page to see who
                     frequent committers are. For example consider
                     <a href="https://github.com/apache/commons-lang/graphs/contributors">this github
@@ -122,14 +158,14 @@
             </ol>
         </section>
 
-        <!-- SLIDE 8 -->
+        <!-- SLIDE 10 -->
         <section>
             <p>
                 <img src="images/commons-lang-contributors.png" style="max-width: 600px;"/>
             </p>
         </section>
 
-        <!-- SLIDE 9 -->
+        <!-- SLIDE 11 -->
         <section>
             <h2>How to ask people what to work on?</h2>
             <ol>
@@ -144,14 +180,14 @@
             </ol>
         </section>
 
-        <!-- SLIDE 10 -->
+        <!-- SLIDE 12 -->
         <section>
             <p>
                 <img src="images/mail-lists.png" style="max-width: 800px;"/>
             </p>
         </section>
 
-        <!-- SLIDE 11 -->
+        <!-- SLIDE 13 -->
         <section>
             <h2>How do I figure out what to work on?</h2>
             <ul>
@@ -168,7 +204,7 @@
             </ul>
         </section>
 
-        <!-- SLIDE 12 -->
+        <!-- SLIDE 14 -->
         <section>
             <h2>Becoming familiar with the community</h2>
             <ul>
@@ -182,7 +218,7 @@
             </ul>
         </section>
 
-        <!-- SLIDE 13 -->
+        <!-- SLIDE 15 -->
         <section>
             <h2>On ASF Style voting.</h2>
             <ul>
@@ -197,12 +233,31 @@
                 </li>
             </ul>
             <p class="fragment">
-                This is used to gauge consensus, not really "majority rule." In fact with releases,
-                generally, any -1 vote cancels the release.
+                This is used to gauge consensus, not really "majority rule." But, with releases majority
+                approval from PMC members (provided more than 3 binding +1 votes) does hold. However, in
+                Commons -1 votes are taken quite seriously.
             </p>
         </section>
 
-        <!-- SLIDE 14 -->
+        <!-- SLIDE 16 -->
+        <section>
+            <h2>On ASF Style Voting.</h2>
+            <ul>
+                <li class="fragment">Voting used in a variety of capacities:
+                    <ul>
+                        <li class="fragment">Concensus building (non-formal)</li>
+                        <li class="fragment">Proposals (formal): -1 veto's the proposal all together</li>
+                        <li class="fragment">[LAZY] votes - silence gives assent</li>
+                        <li class="fragment">Package Releases.</li>
+                    </ul>
+                </li>
+                <li class="fragment">With package releases, majority approval holds, provided there are
+                   at least 3 PMC +1 votes. "-1's" can transpire, but we in Commons take them quite seriously.
+                </li>
+            </ul>
+        </section>
+
+        <!-- SLIDE 17 -->
         <section>
         <h2>Regarding privileges</h2>
         <h4>(commit, voting, establishing votes, ect.)</h4>
@@ -224,7 +279,7 @@
             </ul>
         </section>
 
-        <!-- SLIDE 15 -->
+        <!-- SLIDE 18 -->
         <section>
             <h2>Regarding privileges</h2>
             <h4>(commit, voting, establishing votes, ect.)</h4>
@@ -241,7 +296,7 @@
             </ul>
         </section>
 
-        <!-- SLIDE 16 -->
+        <!-- SLIDE 19 -->
         <section>
             <h2>After I got commit rights.</h2>
             <ul>
@@ -257,7 +312,7 @@
             </ul>
         </section>
 
-        <!-- SLIDE 18 -->
+        <!-- SLIDE 20 -->
         <section>
             <h1>Questions?</h1>
             <h4 class="fragment">Appetite for exploring commons?</h4>
